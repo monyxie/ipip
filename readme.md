@@ -4,8 +4,8 @@
 ###使用
 ```php
 include "ipip.php";
-$o = new Ipip();
-var_dump($o->find('8.8.8.8));
+$o = new Ipip(); // 也可以把dat文件的路径传给构造函数
+var_dump($o->find('8.8.8.8'));
 var_dump($o->dump());
 ```
 
